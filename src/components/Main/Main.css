@@ -9,7 +9,6 @@
 }
 
 .punkHighlight {
-  flex: 0.25;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -19,21 +18,20 @@
   border-radius: 20px;
   overflow: hidden;
   display: flex;
+  min-width: 300px;
   margin-right: 20px;
 }
 
 .selectedPunk {
   object-fit: contain;
   max-width: min(30vw, 40vh);
-  min-width: 200px;
-  max-height: 30vw;
+  min-width: 300px;
 }
 
 .punkDetails {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  flex: 0.75;
+  justify-content: center;
 }
 
 .title {

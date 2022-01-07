@@ -38,15 +38,21 @@ export const Main = ({ selectedPunk, punkListData }) => {
               <div className="ownerNameAndHandle"> </div>
               <div>{activePunk.owner.address}</div>
               <div className="ownerHandle">@JamesArnold</div>
-              <div className="ownerLink">
-                <img src={instagramLogo} alt="Instagram" />
-              </div>
-              <div className="ownerLink">
-                <img src={twitterLogo} alt="Instagram" />
-              </div>
-              <div className="ownerLink">
-                <img src={moreIcon} alt="Instagram" />
-              </div>
+              <a href="https://www.instagram.com/">
+                <div className="ownerLink">
+                  <img src={instagramLogo} alt="Instagram" />
+                </div>
+              </a>
+              <a href="https://www.instagram.com/yagatoshi/">
+                <div className="ownerLink">
+                  <img src={twitterLogo} alt="Twitter" />
+                </div>
+              </a>
+              <a href="https://opensea.io/collection/cyberpunk">
+                <div className="ownerLink">
+                  <img src={moreIcon} alt="More" />
+                </div>
+              </a>
             </div>
           </div>
         </div>
