@@ -1,4 +1,4 @@
-_Web 3.0 NFT store_
+_Web 3.0 NFT store_Desktop_Styling
 
 Front-end
 
@@ -7,3 +7,5 @@ Front-end
 Back-end
 
 - thirdweb
+
+Please clone, run "npm i" adn then npm start to view locally. 
