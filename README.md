@@ -1,4 +1,4 @@
-_Web 3.0 NFT store_Desktop_Styling
+_Web 3.0 NFT store (in_progress)
 
 Front-end
 
