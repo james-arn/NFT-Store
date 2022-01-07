@@ -3,7 +3,6 @@
   "homepage": "https://james-arn.github.io/NFT-Store",
   "version": "0.1.0",
   "private": true,
-  "proxy": "https://testnets-api.opensea.io",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
